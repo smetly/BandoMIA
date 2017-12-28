@@ -42,7 +42,7 @@ namespace BandoMIA.DAL
             var allRows = dataset.GetRows();
 
             var soql = new SODA.SoqlQuery().Select("*")
-                          .Where("issue_type > MINIMUM HOUSING OVA (OPEN/VACANT/ABANDONED)");
+                          .Where("issue_type > MINIMUM HOUSING OVA (CRACK HOUSE)");
 
 
             var results = dataset.Query<Ticket>(soql);
