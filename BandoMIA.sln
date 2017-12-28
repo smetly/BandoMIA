@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandoMIA.Models", "BandoMIA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandoMIA.DAL", "BandoMIA.DAL\BandoMIA.DAL.csproj", "{906CF133-1F88-4CA7-BB29-E92D19538D73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandoMIA.Web", "BandoMIA.Web\BandoMIA.Web.csproj", "{FDA31D28-CF72-4CF0-8575-DEB9BDCE89E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{906CF133-1F88-4CA7-BB29-E92D19538D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906CF133-1F88-4CA7-BB29-E92D19538D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906CF133-1F88-4CA7-BB29-E92D19538D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA31D28-CF72-4CF0-8575-DEB9BDCE89E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA31D28-CF72-4CF0-8575-DEB9BDCE89E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA31D28-CF72-4CF0-8575-DEB9BDCE89E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA31D28-CF72-4CF0-8575-DEB9BDCE89E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
