@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace BandoMIA.Models
 {
-    class BandoView
+    public class BandoView
     {
+        public IEnumerable<Ticket> Bandos { get; set; }
+
 
     }
 }

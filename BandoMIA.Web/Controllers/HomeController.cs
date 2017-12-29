@@ -12,15 +12,25 @@ namespace BandoMIA.Web.Controllers
     {
         public ActionResult Index()
         {
-            IEnumerable<Ticket> output = null;
+            BandoView myview = new BandoView();
 
             TicketManager mgr = new TicketManager();
 
-            output = mgr.getAbandondedProperties();
+            myview.Bandos = mgr.getAbandondedProperties();
 
-            
+            //myview.Bandos = mgr.getCrackHouse();
 
-            return View(output.First<Ticket>());
+            //myview.Bandos = mgr.getBeeInfest();
+
+            //myview.Bandos = mgr.getCondemned();
+
+            //myview.Bandos = mgr.getEmergency();
+
+            //myview.Bandos = mgr.getMinimumHousing();
+
+
+
+            return View(myview);
         }
 
         public ActionResult About()
