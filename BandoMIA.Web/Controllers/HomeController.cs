@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BandoMIA.DAL;
+using BandoMIA.Models;
 
 namespace BandoMIA.Web.Controllers
 {
@@ -10,7 +12,15 @@ namespace BandoMIA.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<Ticket> output = null;
+
+            TicketManager mgr = new TicketManager();
+
+            output = mgr.getAbandondedProperties();
+
+            
+
+            return View(output.First<Ticket>());
         }
 
         public ActionResult About()

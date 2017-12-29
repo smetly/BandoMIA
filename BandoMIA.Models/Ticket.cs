@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandoMIA.Models
 {
+    [Serializable]
     public class Ticket
     {
         public string case_owner { get; set; }
